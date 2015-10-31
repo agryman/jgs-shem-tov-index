@@ -52,7 +52,7 @@
 
 	<xsl:template name="footer">
 		<div class="footer">Copyright&#160;&#169;&#160;2011,
-			2013 Jewish
+			2015 Jewish
 			Genealogical Society of Canada (Toronto). All Rights Reserved.
 		</div>
 	</xsl:template>

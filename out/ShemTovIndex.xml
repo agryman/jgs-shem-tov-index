@@ -9,7 +9,7 @@
   <LastAuthor>Arthur Ryman</LastAuthor>
   <LastPrinted>2012-05-17T15:29:02Z</LastPrinted>
   <Created>2011-06-24T13:53:18Z</Created>
-  <LastSaved>2015-10-31T12:29:40Z</LastSaved>
+  <LastSaved>2015-10-31T22:33:39Z</LastSaved>
   <Company>McGill University</Company>
   <Version>14.0</Version>
  </DocumentProperties>
@@ -17,10 +17,10 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>14780</WindowHeight>
-  <WindowWidth>29940</WindowWidth>
-  <WindowTopX>19580</WindowTopX>
-  <WindowTopY>160</WindowTopY>
+  <WindowHeight>7100</WindowHeight>
+  <WindowWidth>30900</WindowWidth>
+  <WindowTopX>7040</WindowTopX>
+  <WindowTopY>11640</WindowTopY>
   <Date1904/>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -56,47 +56,44 @@
    <Font ss:FontName="Verdana" ss:Bold="1"/>
   </Style>
   <Style ss:ID="s71">
-   <Font ss:FontName="Verdana"/>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Verdana" ss:Bold="1"/>
   </Style>
   <Style ss:ID="s72">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
-   <Font ss:FontName="Verdana" ss:Bold="1"/>
   </Style>
   <Style ss:ID="s73">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
-  </Style>
-  <Style ss:ID="s74">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Font ss:FontName="Verdana" ss:Bold="1"/>
   </Style>
-  <Style ss:ID="s75">
+  <Style ss:ID="s74">
    <Alignment ss:Vertical="Center"/>
    <Font ss:FontName="Verdana"/>
   </Style>
-  <Style ss:ID="s76">
+  <Style ss:ID="s75">
    <Alignment ss:Vertical="Center" ss:WrapText="1"/>
    <Font ss:FontName="Verdana" ss:Italic="1"/>
   </Style>
-  <Style ss:ID="s77">
+  <Style ss:ID="s76">
    <Alignment ss:Vertical="Center" ss:WrapText="1"/>
    <Font ss:FontName="Verdana"/>
   </Style>
  </Styles>
  <Names>
-  <NamedRange ss:Name="subject" ss:RefersTo="=articles!R2C81:R50C81"/>
+  <NamedRange ss:Name="subject" ss:RefersTo="=articles!#REF!"/>
  </Names>
  <Worksheet ss:Name="articles">
   <Names>
    <NamedRange ss:Name="Print_Area" ss:RefersTo="=articles!R1C1:R740C17"/>
    <NamedRange ss:Name="Print_Titles" ss:RefersTo="=articles!R1"/>
   </Names>
-  <Table ss:ExpandedColumnCount="81" ss:ExpandedRowCount="891" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="891" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s64" ss:DefaultColumnWidth="77">
    <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="241"/>
    <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="45"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="45" ss:Span="1"/>
-   <Column ss:Index="5" ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="38"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="59"/>
+   <Column ss:StyleID="s72" ss:AutoFitWidth="0" ss:Width="45" ss:Span="1"/>
+   <Column ss:Index="5" ss:StyleID="s72" ss:AutoFitWidth="0" ss:Width="38"/>
+   <Column ss:StyleID="s72" ss:AutoFitWidth="0" ss:Width="59"/>
    <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="88"/>
    <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="95"/>
    <Column ss:Index="13" ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="139"/>
@@ -108,13 +105,13 @@
       ss:Name="Print_Titles"/><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell><Data ss:Type="String">Year</Data><NamedCell ss:Name="Print_Titles"/><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="String">Month</Data><NamedCell
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Month</Data><NamedCell
       ss:Name="Print_Titles"/><NamedCell ss:Name="Print_Area"/></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="String">Volume</Data><NamedCell
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Volume</Data><NamedCell
       ss:Name="Print_Titles"/><NamedCell ss:Name="Print_Area"/></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="String">Issue</Data><NamedCell
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Issue</Data><NamedCell
       ss:Name="Print_Titles"/><NamedCell ss:Name="Print_Area"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">Page&#13;number</Data><NamedCell
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Page&#13;number</Data><NamedCell
       ss:Name="Print_Titles"/><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">Author 1: surname</Data><NamedCell
       ss:Name="Print_Titles"/><NamedCell ss:Name="Print_Area"/></Cell>
@@ -163,8 +160,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Africa</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">The Jews of Saskatchewan</Data><NamedCell
@@ -190,8 +185,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Archives, Libraries, Bookstores, Museums</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="52">
     <Cell><Data ss:Type="String">The Lodz Archives</Data><NamedCell
@@ -216,8 +209,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Asia</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Active Jewish Genealogical Groups</Data><NamedCell
@@ -243,8 +234,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Austria</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Cemetery Project</Data><NamedCell
@@ -268,8 +257,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Baltic Countries</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Society News</Data><NamedCell ss:Name="Print_Area"/></Cell>
@@ -293,8 +280,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Belarus</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">JIAS – Halifax</Data><NamedCell
@@ -319,8 +304,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Books and Periodicals</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Cemetery Projects</Data><NamedCell
@@ -344,8 +327,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">British Isles</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">JGS of New York – 10th Anniversary</Data><NamedCell
@@ -370,8 +351,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Canada</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Record of Reunions</Data><NamedCell
@@ -396,8 +375,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Caribbean</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">A Mystery Solved</Data><NamedCell
@@ -422,8 +399,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Cemeteries and Burials</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">Breakthrough in Access to Polish-Jewish records</Data><NamedCell
@@ -448,8 +423,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Central and South America</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">German Jewish Archives to return to East-Berlin community ..... ?</Data><NamedCell
@@ -474,8 +447,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Commemoration</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Re: German Jewish research</Data><NamedCell
@@ -500,8 +471,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Computers, Internet Sources, Software</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">The Fork in the Road</Data><NamedCell
@@ -526,8 +495,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Conferences, Symposia, Seminars, Workshops</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">A Genealogist's Gold Rush .... ?</Data><NamedCell
@@ -552,8 +519,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Czech Republic and Slovakia</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Genealogical Wedding Planning</Data><NamedCell
@@ -578,8 +543,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">DNA and Genetics</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">Highlights of the Seventh Jewish Genealogical Summer Seminar</Data><NamedCell
@@ -603,8 +566,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s75"><Data ss:Type="String">France</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">Archives + Addresses: Russian Business Directories as Aids in Genealogical Research</Data><NamedCell
@@ -629,8 +590,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Germany</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Books + References: Sun vs. Moon</Data><NamedCell
@@ -654,8 +613,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Holocaust</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">We dug into our roots for an International Family Gathering, part 1</Data><NamedCell
@@ -678,8 +635,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Hungary</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">Landsmannschaften</Data><NamedCell
@@ -704,8 +659,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Immigration and Passenger Records</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Connecting the present to the past</Data><NamedCell
@@ -729,8 +682,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s75"><Data ss:Type="String">India</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">Toronto Landsmanschaften</Data><NamedCell
@@ -754,8 +705,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Indices</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">We dug into our roots for an International Family Gathering, part 2</Data><NamedCell
@@ -779,8 +728,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Institutions</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Keeping up with the journals</Data><NamedCell
@@ -804,8 +751,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Israel</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="52">
     <Cell><Data ss:Type="String">Berlin</Data><NamedCell ss:Name="Print_Area"/></Cell>
@@ -829,8 +774,6 @@
       ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Jewish Names</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">A visit to the 'old country'</Data><NamedCell
@@ -853,8 +796,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">JGS</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Cemetery project</Data><NamedCell
@@ -877,8 +818,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Law</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">Too many bytes - no bites…?</Data><NamedCell
@@ -902,8 +841,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">LDS (Mormon) Sources</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">The Gedenkbuch donated</Data><NamedCell
@@ -927,8 +864,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Media</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Changing faces</Data><NamedCell
@@ -953,8 +888,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Methodology</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Old Letters</Data><NamedCell ss:Name="Print_Area"/></Cell>
@@ -977,8 +910,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Military Records</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">The Israel Connection</Data><NamedCell
@@ -1002,8 +933,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">n/a</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Branching out…</Data><NamedCell
@@ -1027,8 +956,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Netherlands</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">Library Holdings</Data><NamedCell
@@ -1052,8 +979,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Poland</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Cartons – filled with…</Data><NamedCell
@@ -1077,8 +1002,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Publishing a Family History</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Passengers of the 'St. Louis'</Data><NamedCell
@@ -1103,8 +1026,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Research</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Four Hours in San Fransisco</Data><NamedCell
@@ -1128,8 +1049,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Romania and Moldavia</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Genealogical Society in the sun</Data><NamedCell
@@ -1153,8 +1072,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Russian Empire and Soviet Union</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">My street…?</Data><NamedCell ss:Name="Print_Area"/></Cell>
@@ -1177,8 +1094,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Sephardim and Middle Eastern Jewry</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String" x:Ticked="1">Unfamiliar'</Data><NamedCell
@@ -1202,8 +1117,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Significance of genealogy</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">The Weissensee Records</Data><NamedCell
@@ -1226,8 +1139,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">South Africa</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Cemetery Project Update</Data><NamedCell
@@ -1251,8 +1162,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Switzerland</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">LDS Family History Library Notes</Data><NamedCell
@@ -1277,8 +1186,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Synagogues</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Members' Forum: Selma Sacrob</Data><NamedCell
@@ -1302,8 +1209,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Ukraine</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="39">
     <Cell><Data ss:Type="String">Review: Blume, Deiter and Jürgen Runzheimer, eds. Gladenbach und Schloss Blankenstein</Data><NamedCell
@@ -1326,8 +1231,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">United States</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">Field Trip to the Canadiana Room</Data><NamedCell
@@ -1350,8 +1253,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Western Europe</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">Choosing a Genealogy Program</Data><NamedCell
@@ -1375,8 +1276,6 @@
     <Cell><Data ss:Type="String">n/a</Data><NamedCell ss:Name="Print_Area"/></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data><NamedCell
       ss:Name="Print_Area"/></Cell>
-    <Cell ss:Index="81" ss:StyleID="s71"><Data ss:Type="String">Writing</Data><NamedCell
-      ss:Name="subject"/></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Discoveries</Data><NamedCell ss:Name="Print_Area"/></Cell>
@@ -17492,11 +17391,11 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">8</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">Media</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data></Cell>
@@ -17613,9 +17512,12 @@
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">Research</Data></Cell>
     <Cell><Data ss:Type="String">Canada</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row ss:Height="26">
-    <Cell ss:StyleID="s76"><Data ss:Type="String">Review: One Hundred Years at the Junction Shul</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Review: One Hundred Years at the Junction Shul</Data></Cell>
     <Cell><Data ss:Type="Number">2012</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell><Data ss:Type="String">XXVIII</Data></Cell>
@@ -17627,30 +17529,30 @@
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Books and Periodicals</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Books and Periodicals</Data></Cell>
     <Cell><Data ss:Type="String">Canada</Data></Cell>
     <Cell><Data ss:Type="String">Synagogues</Data></Cell>
     <Cell><Data ss:Type="String">Institutions</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row ss:Height="39">
-    <Cell ss:StyleID="s76"><Data ss:Type="String">Review: The Arrogant Years: One Girl's Search for her Lost Youth, from Cairo to Brooklyn</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Review: The Arrogant Years: One Girl's Search for her Lost Youth, from Cairo to Brooklyn</Data></Cell>
     <Cell><Data ss:Type="Number">2012</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell><Data ss:Type="String">XXVIII</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Books and Periodicals</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Books and Periodicals</Data></Cell>
     <Cell><Data ss:Type="String">United States</Data></Cell>
     <Cell><Data ss:Type="String">Africa</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">How to Buy Tracing Our Roots, Telling Our Stories</Data></Cell>
@@ -17666,10 +17568,10 @@
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">Archives, Libraries, Bookstores, Museums</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row ss:Height="39">
     <Cell><Data ss:Type="String">Cochin’s Defunct Kadavumbhagum Synagogue and the Decline of India’s Malabar Jewry</Data></Cell>
@@ -17678,17 +17580,17 @@
     <Cell><Data ss:Type="String">XXVIII</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">8</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Zohar</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Gil</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Zohar</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Gil</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">India</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">From <I xmlns="http://www.w3.org/TR/REC-html40">Nu? What's New?</I><Font
@@ -17707,7 +17609,7 @@
     <Cell ss:StyleID="s65"><Data ss:Type="String">Computers, Internet Sources, Software</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">Czech Republic and Slovakia</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">France</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">Holocaust</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Holocaust</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row ss:Height="26">
@@ -17717,17 +17619,17 @@
     <Cell><Data ss:Type="String">XXVIII</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">9</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Kasman</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Judy</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Canada</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Germany</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Kasman</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Judy</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Canada</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Germany</Data></Cell>
     <Cell><Data ss:Type="String">Immigration and Passenger Records</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">How to Read Shem Tov on a Tablet</Data></Cell>
@@ -17736,17 +17638,17 @@
     <Cell><Data ss:Type="String">XXVIII</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Richler</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Neil</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Richler</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Neil</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">Books and Periodicals</Data></Cell>
     <Cell><Data ss:Type="String">Computers, Internet Sources, Software</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Cemetery Report</Data></Cell>
@@ -17755,17 +17657,17 @@
     <Cell><Data ss:Type="String">XXVIII</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">11</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Halberstadt</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Allen</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Halberstadt</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Allen</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">Canada</Data></Cell>
     <Cell><Data ss:Type="String">Cemeteries and Burials</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Toronto-Centric</Data></Cell>
@@ -17774,17 +17676,17 @@
     <Cell><Data ss:Type="String">XXVIII</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">11</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Canada</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Canada</Data></Cell>
     <Cell><Data ss:Type="String">Commemoration</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">TV Genealogy: Post-script</Data></Cell>
@@ -17793,36 +17695,36 @@
     <Cell><Data ss:Type="String">XXVIII</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">11</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Kasman</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Judy</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Kasman</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Judy</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">Media</Data></Cell>
     <Cell><Data ss:Type="String">Publishing a Family History</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row ss:Height="26">
-    <Cell ss:StyleID="s77"><Data ss:Type="String">Family Story vs. Ship Manifest</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Family Story vs. Ship Manifest</Data></Cell>
     <Cell><Data ss:Type="Number">2012</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell><Data ss:Type="String">XXVIII</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">12</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Blume</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Lil</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Canada</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Blume</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Lil</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Canada</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">Archives, Libraries, Bookstores, Museums</Data></Cell>
     <Cell><Data ss:Type="String">Immigration and Passenger Records</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">2012 IAJGS Poster Contest Winners</Data></Cell>
@@ -17897,6 +17799,8 @@
     <Cell><Data ss:Type="String">Poland</Data></Cell>
     <Cell><Data ss:Type="String">Holocaust</Data></Cell>
     <Cell><Data ss:Type="String">Conferences, Symposia, Seminars, Workshops</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">New and Improved: Yad Vashem's Central Database</Data></Cell>
@@ -17962,7 +17866,9 @@
     <Cell><Data ss:Type="String">XXVIII</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">11</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
@@ -17986,7 +17892,8 @@
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">Cemeteries and Burials</Data></Cell>
-    <Cell ss:Index="15"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
    </Row>
@@ -18015,7 +17922,8 @@
     <Cell><Data ss:Type="Number">9</Data></Cell>
     <Cell><Data ss:Type="String">XXVIII</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="String">Miller Fox</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">Miller Fox</Data></Cell>
     <Cell><Data ss:Type="String">Valerie</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
@@ -18478,7 +18386,8 @@
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">Writing</Data></Cell>
-    <Cell ss:Index="15"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
    </Row>
@@ -18641,7 +18550,9 @@
     <Cell><Data ss:Type="String">XXIX</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
@@ -18687,6 +18598,7 @@
     <Cell ss:StyleID="s65"><Data ss:Type="String">Conferences, Symposia, Seminars, Workshops</Data></Cell>
     <Cell><Data ss:Type="String">Poland</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">Russian Empire and Soviet Union</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row ss:Height="26">
     <Cell><Data ss:Type="String">Jewish Heritage Month Ontario, May 2013: A Pictoral Review</Data></Cell>
@@ -19069,7 +18981,7 @@
     <Cell><Data ss:Type="String">n/a</Data></Cell>
    </Row>
    <Row ss:Height="26">
-    <Cell ss:StyleID="s76"><Data ss:Type="String"><I
+    <Cell ss:StyleID="s75"><Data ss:Type="String"><I
        xmlns="http://www.w3.org/TR/REC-html40">Tracing Our Roots, Telling Our Stories </I><Font
        xmlns="http://www.w3.org/TR/REC-html40">Donated to Institutions in Europe</Font></Data></Cell>
     <Cell><Data ss:Type="Number">2013</Data></Cell>
@@ -19098,7 +19010,11 @@
     <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell><Data ss:Type="String">Cheskes</Data></Cell>
     <Cell><Data ss:Type="String">Elaine</Data></Cell>
-    <Cell ss:Index="13" ss:StyleID="s65"><Data ss:Type="String">Sephardim and Middle Eastern Jewry</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sephardim and Middle Eastern Jewry</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">Cemeteries and Burials</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
@@ -19151,7 +19067,11 @@
     <Cell><Data ss:Type="Number">9</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
-    <Cell ss:Index="13"><Data ss:Type="String">Poland</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">Poland</Data></Cell>
     <Cell><Data ss:Type="String">Holocaust</Data></Cell>
     <Cell><Data ss:Type="String">Arts</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
@@ -19166,7 +19086,11 @@
     <Cell><Data ss:Type="Number">10</Data></Cell>
     <Cell><Data ss:Type="String">Eastman</Data></Cell>
     <Cell><Data ss:Type="String">Dick</Data></Cell>
-    <Cell ss:Index="13"><Data ss:Type="String">United States</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">United States</Data></Cell>
     <Cell><Data ss:Type="String">Methodology</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
     <Cell><Data ss:Type="String">n/a</Data></Cell>
@@ -20323,7 +20247,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>863</TopRowBottomPane>
+   <TopRowBottomPane>822</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -20340,8 +20264,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>899</ActiveRow>
-     <ActiveCol>0</ActiveCol>
+     <ActiveRow>832</ActiveRow>
+     <ActiveCol>8</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

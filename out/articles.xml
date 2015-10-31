@@ -11689,9 +11689,6 @@
 </tns:author>
 <tns:subject position="1">Research</tns:subject>
 <tns:subject position="2">Canada</tns:subject>
-<tns:subject position="3"/>
-<tns:subject position="4"/>
-<tns:subject position="5"/>
 </tns:article>
 <tns:article>
 <tns:document>newsletters/Toronto-Shem-Tov-2012-06.pdf</tns:document>
@@ -11918,8 +11915,6 @@
 <tns:subject position="1">Poland</tns:subject>
 <tns:subject position="2">Holocaust</tns:subject>
 <tns:subject position="3">Conferences, Symposia, Seminars, Workshops</tns:subject>
-<tns:subject position="4"/>
-<tns:subject position="5"/>
 </tns:article>
 <tns:article>
 <tns:document>newsletters/Toronto-Shem-Tov-2012-09.pdf</tns:document>
@@ -11982,13 +11977,8 @@
 <tns:volume>XXVIII</tns:volume>
 <tns:issue>3</tns:issue>
 <tns:page>11</tns:page>
-<tns:author position="3">
-<tns:surname>Holocaust</tns:surname>
-<tns:firstName>Poland</tns:firstName>
-<tns:fullName>Poland Holocaust</tns:fullName>
-</tns:author>
-<tns:subject position="4"/>
-<tns:subject position="5"/>
+<tns:subject position="1">Holocaust</tns:subject>
+<tns:subject position="2">Poland</tns:subject>
 </tns:article>
 <tns:article>
 <tns:document>newsletters/Toronto-Shem-Tov-2012-09.pdf</tns:document>
@@ -12005,7 +11995,6 @@
 <tns:fullName>Allen Halberstadt</tns:fullName>
 </tns:author>
 <tns:subject position="1">Cemeteries and Burials</tns:subject>
-<tns:subject position="5"/>
 </tns:article>
 <tns:article>
 <tns:document>newsletters/Toronto-Shem-Tov-2012-09.pdf</tns:document>
@@ -12032,17 +12021,14 @@
 <tns:yyyy-mm>2012-09</tns:yyyy-mm>
 <tns:volume>XXVIII</tns:volume>
 <tns:issue>3</tns:issue>
-<tns:page>NaN</tns:page>
+<tns:page>8</tns:page>
 <tns:author position="1">
-<tns:surname>Valerie</tns:surname>
-<tns:fullName>Valerie</tns:fullName>
+<tns:surname>Miller Fox</tns:surname>
+<tns:firstName>Valerie</tns:firstName>
+<tns:fullName>Valerie Miller Fox</tns:fullName>
 </tns:author>
-<tns:author position="3">
-<tns:firstName>Canada</tns:firstName>
-<tns:fullName>Canada</tns:fullName>
-</tns:author>
-<tns:subject position="1">Significance of genealogy</tns:subject>
-<tns:subject position="5"/>
+<tns:subject position="1">Canada</tns:subject>
+<tns:subject position="2">Significance of genealogy</tns:subject>
 </tns:article>
 <tns:article>
 <tns:document>newsletters/Toronto-Shem-Tov-2012-12.pdf</tns:document>
@@ -12438,7 +12424,6 @@
 <tns:fullName>Isme Bennie</tns:fullName>
 </tns:author>
 <tns:subject position="1">Writing</tns:subject>
-<tns:subject position="5"/>
 </tns:article>
 <tns:article>
 <tns:document>newsletters/Toronto-Shem-Tov-2013-03.pdf</tns:document>
@@ -12579,13 +12564,8 @@
 <tns:volume>XXIX</tns:volume>
 <tns:issue>2</tns:issue>
 <tns:page>6</tns:page>
-<tns:author position="3">
-<tns:surname>Canada</tns:surname>
-<tns:firstName>Research</tns:firstName>
-<tns:fullName>Research Canada</tns:fullName>
-</tns:author>
-<tns:subject position="4"/>
-<tns:subject position="5"/>
+<tns:subject position="1">Canada</tns:subject>
+<tns:subject position="2">Research</tns:subject>
 </tns:article>
 <tns:article>
 <tns:document>newsletters/Toronto-Shem-Tov-2013-06.pdf</tns:document>
@@ -12618,7 +12598,6 @@
 <tns:subject position="2">Conferences, Symposia, Seminars, Workshops</tns:subject>
 <tns:subject position="3">Poland</tns:subject>
 <tns:subject position="4">Russian Empire and Soviet Union</tns:subject>
-<tns:subject position="5"/>
 </tns:article>
 <tns:article>
 <tns:document>newsletters/Toronto-Shem-Tov-2013-06.pdf</tns:document>
@@ -12961,15 +12940,8 @@
 <tns:firstName>Elaine</tns:firstName>
 <tns:fullName>Elaine Cheskes</tns:fullName>
 </tns:author>
-<tns:author position="2">
-<tns:surname>Sephardim and Middle Eastern Jewry</tns:surname>
-<tns:firstName>Cemeteries and Burials</tns:firstName>
-<tns:fullName>Cemeteries and Burials Sephardim and Middle Eastern Jewry</tns:fullName>
-</tns:author>
-<tns:subject position="2"/>
-<tns:subject position="3"/>
-<tns:subject position="4"/>
-<tns:subject position="5"/>
+<tns:subject position="1">Sephardim and Middle Eastern Jewry</tns:subject>
+<tns:subject position="2">Cemeteries and Burials</tns:subject>
 </tns:article>
 <tns:article>
 <tns:document>newsletters/Toronto-Shem-Tov-2013-12.pdf</tns:document>
@@ -13010,19 +12982,9 @@
 <tns:volume>XXIX</tns:volume>
 <tns:issue>4</tns:issue>
 <tns:page>9</tns:page>
-<tns:author position="2">
-<tns:surname>Poland</tns:surname>
-<tns:firstName>Holocaust</tns:firstName>
-<tns:fullName>Holocaust Poland</tns:fullName>
-</tns:author>
-<tns:author position="3">
-<tns:surname>Arts</tns:surname>
-<tns:fullName>Arts</tns:fullName>
-</tns:author>
-<tns:subject position="2"/>
-<tns:subject position="3"/>
-<tns:subject position="4"/>
-<tns:subject position="5"/>
+<tns:subject position="1">Poland</tns:subject>
+<tns:subject position="2">Holocaust</tns:subject>
+<tns:subject position="3">Arts</tns:subject>
 </tns:article>
 <tns:article>
 <tns:document>newsletters/Toronto-Shem-Tov-2013-12.pdf</tns:document>
@@ -13038,15 +13000,8 @@
 <tns:firstName>Dick</tns:firstName>
 <tns:fullName>Dick Eastman</tns:fullName>
 </tns:author>
-<tns:author position="2">
-<tns:surname>United States</tns:surname>
-<tns:firstName>Methodology</tns:firstName>
-<tns:fullName>Methodology United States</tns:fullName>
-</tns:author>
-<tns:subject position="2"/>
-<tns:subject position="3"/>
-<tns:subject position="4"/>
-<tns:subject position="5"/>
+<tns:subject position="1">United States</tns:subject>
+<tns:subject position="2">Methodology</tns:subject>
 </tns:article>
 <tns:article>
 <tns:document>newsletters/Toronto-Shem-Tov-2013-12.pdf</tns:document>
