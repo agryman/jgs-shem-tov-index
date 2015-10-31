@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     Sep 4, 2011 2:01:25 PM                                                        
+
+     ShemTovIndex    
+     Generates the Shem Tov Index web pages from the input Excel document.
+                   
+     Arthur Ryman  
+     2011-09-04                                                              
+     ====================================================================== -->
+<project name="ShemTovIndex" default="main">
+	<description>
+            Generates the Shem Tov Index web pages from the Excel document.
+		
+		The Excel document must not contain any empty cells, otherwise the XML will not be correct.
+		After conversion to XML, check for the presence of empty cells using the XPath
+		expression /tns:articles/tns:article/*[not(text())]
+		
+    	1. Input Excel spreadsheet is src/ShemTovIndex_v3.xls, or the latest version.
+    	2. Open src/ShemTovIndex_v3.xls in Excel and save as XML spreadsheet with name out/ShemTovIndex.xml.
+    	3. Transform out/ShemTovIndex.xml spreadsheet to out/articles.xml using src/excel2articles.xsl.
+		4. Transform out/articles.xml into the web page WebContent/shem-tov-index/years.html using src/articles2years.xsl.
+		5. Transform out/articles.xml into the web page WebContent/shem-tov-index/authors.html using src/articles2authors.xsl.
+		6. Transform out/articles.xml into the web page WebContent/shem-tov-index/subjects.html using src/articles2subjects.xsl.
+		7. Transform out/articles.xml into the web page WebContent/shem-tov-index/text.html using src/articles2text.xsl.
+		8. FTP files in WebContent to ftp://jgstoronto.ca/web/shem-tov-index
+	
+    </description>
+
+	<!-- ================================= 
+          target: main              
+         ================================= -->
+	<target name="main" depends="articles.xml, index.html, authors.html, subjects.html, text.html" description="Generates the Shem Tov Index web pages from the Excel document.">
+	</target>
+
+	<!-- ================================= 
+          target: articles.xml              
+         ================================= -->
+	<target name="articles.xml" description="Transforms the source Excel XML file into a simpler articles XML file.">
+		<xslt style="src/workbook2articles.xsl" in="out/ShemTovIndex.xml" out="out/articles.xml" force="yes">
+		</xslt>
+	</target>
+
+	<!-- ================================= 
+          target: index.html              
+         ================================= -->
+	<target name="index.html" depends="articles.xml" description="Transforms articles.xml into the year index web page.">
+		<xslt style="src/articles2years.xsl" in="out/articles.xml" out="WebContent/shem-tov-index/index.html" force="yes">
+		</xslt>
+	</target>
+
+	<!-- ================================= 
+          target: authors.html              
+         ================================= -->
+	<target name="authors.html" description="Transforms articles.xml into the author index web page.">
+		<xslt style="src/articles2authors.xsl" in="out/articles.xml" out="WebContent/shem-tov-index/authors.html" force="yes">
+		</xslt>
+	</target>
+
+	<!-- ================================= 
+          target: subjects.html              
+         ================================= -->
+	<target name="subjects.html" depends="articles.xml" description="Transforms articles.xml into the subject index web page">
+		<xslt style="src/articles2subjects.xsl" in="out/articles.xml" out="WebContent/shem-tov-index/subjects.html" force="yes">
+		</xslt>
+	</target>
+
+	<!-- ================================= 
+          target: text.html              
+         ================================= -->
+	<target name="text.html" depends="articles.xml" description="Transforms articles.xml into the text page">
+		<xslt style="src/articles2text.xsl" in="out/articles.xml" out="WebContent/shem-tov-index/text.html" force="yes">
+		</xslt>
+	</target>
+
+</project>

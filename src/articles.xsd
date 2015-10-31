@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.jgstoronto.ca/schemas/articles.xsd#"
+	xmlns:tns="http://www.jgstoronto.ca/schemas/articles.xsd#" elementFormDefault="qualified">
+
+    <element name="articles" type="tns:Articles"></element>
+    
+    <element name="article" type="tns:Article"></element>
+    
+    <element name="document" type="string"></element>
+
+    <element name="title" type="string"></element>
+
+    <element name="author" type="tns:Author"></element>
+    
+    <element name="surname" type="string"></element>
+
+    <element name="firstName" type="string"></element>
+
+    <element name="fullName" type="string"></element>
+
+    <element name="subject" type="tns:Subject"></element>
+    
+    <element name="page" type="positiveInteger"></element>
+
+    <element name="volume" type="string"></element>
+
+    <element name="issue" type="positiveInteger"></element>
+    
+    <element name="year" type="positiveInteger"></element>
+    
+    <element name="month" type="positiveInteger"></element>
+
+    <complexType name="Author">
+    	<sequence>
+    		<element ref="tns:surname" maxOccurs="1" minOccurs="0"></element>
+    		<element ref="tns:firstName" maxOccurs="1" minOccurs="0"></element>
+    		<element ref="tns:fullName"></element>
+    	</sequence>
+    	<attribute name="position" type="positiveInteger"></attribute>
+    </complexType>
+
+    <complexType name="Articles">
+    	<sequence>
+    		<element ref="tns:article" maxOccurs="unbounded" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="Subject">
+    	<simpleContent>
+    		<extension base="string">
+    			<attribute name="position" type="positiveInteger"></attribute>
+    		</extension>
+    	</simpleContent>
+    </complexType>
+
+    <complexType name="Article">
+    	<sequence>
+    		<element ref="tns:document"></element>
+    		<element ref="tns:title"></element>
+    		<element ref="tns:year"></element>
+    		<element ref="tns:month"></element>
+            <element ref="tns:yyyy-mm"></element>
+            <element ref="tns:volume"></element>
+    		<element ref="tns:issue"></element>
+    		<element ref="tns:page"></element>
+    		<element ref="tns:author" maxOccurs="unbounded"
+    			minOccurs="0">
+    		</element>
+    		<element ref="tns:subject" maxOccurs="unbounded"
+    			minOccurs="0">
+    		</element>
+    	</sequence>
+    </complexType>
+
+    <element name="yyyy-mm" type="string"></element>
+</schema>

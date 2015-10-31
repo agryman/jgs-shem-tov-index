@@ -1,0 +1,135 @@
+@import url("reset.css");
+
+/* remove the underlines from links */
+* {
+	text-decoration: none;
+}
+
+/* fixed width, centered */
+body {
+	width: 768px;
+	margin: 0 auto;
+}
+
+.banner {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-image: url("shemtov.gif");
+	background-position: center right;
+}
+
+.banner img {
+	margin-top: 1em;
+}
+
+/* the horizontal navigation bar in the header */
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding-left: 0;
+	margin-top: 1em;
+}
+
+nav li {
+	float: left;
+}
+
+/* navigation links are buttons with light gray background if to a different page */
+nav a {
+	width: 7em;
+	display: block;
+	border: 1px solid black;
+	border-radius: .5em;
+	padding: .2em;
+	margin-right: .5em;
+	background-color: lightgray;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* make the navigation link white if its to the current page */
+#author-page nav #author-link a,#subject-page nav #subject-link a,#year-page nav #year-link a
+	{
+	background-color: white;
+}
+
+nav a,h1,h2,h3,dt,th,.footer {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* table of contents */
+table.toc {
+	width: 100%;
+	text-align: left;
+}
+
+table.toc th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	padding-right: .5em;
+}
+
+table.toc td {
+	padding-top: .5em;
+}
+
+table.toc ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding-left: 0;
+	display: inline;
+}
+
+table.toc li {
+	font-family: serif;
+	font-size: medium;
+	display: inline;
+}
+
+table.toc li:first-child::before {
+	content: none;
+}
+
+/* put a separator between toc items */
+table.toc li::before {
+	content: " | ";
+}
+
+/* body */
+h1 {
+	font-size: xx-large;
+	margin-top: .5em;
+	border-top: 1px solid black;
+}
+
+h2 {
+	font-size: x-large;
+	margin-top: 1em;
+	border-top: 1px solid gray;
+}
+
+h3 {
+	font-size: large;
+	margin-top: .5em;
+	border-top: 1px dotted gray;
+}
+
+.main p {
+	text-indent: 2em;
+	margin-top: .5em;
+}
+
+.title {
+	font-style: italic;
+}
+
+.footer {
+	border-top: 1px solid black;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 1em;
+	text-align: center;
+}
