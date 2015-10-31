@@ -144,7 +144,7 @@
 		</xsl:for-each>
 	</xsl:template>
 
-	<!-- writes the link to the document, e.g. http://www.jgstoronto.ca/documents/Toronto-Shem-Tov-2000-03.pdf -->
+	<!-- writes the link to the document, e.g. newsletters/Toronto-Shem-Tov-2000-03.pdf -->
 	<xsl:template name="document">
 		<xsl:param name="year" />
 		<xsl:param name="month" />
@@ -159,7 +159,7 @@
 		<!-- assume PDFs are in the same directory as the index files -->
 		<tns:document>
 			<xsl:value-of
-			select="concat('Toronto-Shem-Tov-',$yyyy,'-',$mm,'.pdf')" />
+			select="concat('newsletters/Toronto-Shem-Tov-',$yyyy,'-',$mm,'.pdf')" />
 		</tns:document>
 
 	</xsl:template>
